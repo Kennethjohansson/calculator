@@ -1,5 +1,51 @@
 <!DOCTYPE html>
-    <div> 
-        <h1> This is a calculator </h1>
-        <p> Here you can calculate stuff </p>
+
+    <html>
+        <head>  
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+    <body>
+
+    <div class="calculator"> 
+    
+    <input type="text" class="calculatorDisplay" value="0" disabled> 
+
+    <div class="calculatorKeys">
+
+        <button class="all-clear" value='all-clear' data-action="clear" > AC </button>
+        <button class="operator" value='%' data-action="divide" > &divide </button>
+
+        <button value='7'> 7 </button>
+        <button value='8'> 8 </button>
+        <button value='9'> 9 </button>
+        <button class="operator" value='+' data-action="add"> + </button>
+
+        <button value='4'> 4 </button>
+        <button value='5'> 5 </button>
+        <button value='6'> 6 </button>
+        <button class="operator" value='-' data-action="subtract"> - </button>
+
+        <button value='1'> 1 </button>
+        <button value='2'> 2 </button>
+        <button value='3'> 3 </button>
+        <button class="operator" value='*' data-action="multiply"> &times </button>
+
+        <button class="null" value='0'> 0 </button>
+        <button class="decimal" value='decimal' data-action="decimal"> . </button>
+        <button class="equal" value='=' data-action="calculate"> = </button>
+
     </div>
+
+</div>
+    
+
+
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+
+    </html>
